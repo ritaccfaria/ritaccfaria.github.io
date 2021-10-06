@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+
+
+body {
+	background-color: black;
+}
+
+header {
+	margin: auto;
+	margin-top: 5%;
+	width: 50%;
+}
+
+main {
+	margin: auto;
+	width: 50%;
+}
+
+h1, h2, h3, p, ul {
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-weight: 900;
+	font-size: 4rem;
+	color: goldenrod;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 2rem;
+	line-height: 2.5rem;
+	padding: 3.5rem 0 2rem 0;
+}
+
+ul {
+	list-style: upper-latin;
+	list-style-position: inside;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 2.2rem;
+	color:#E8C664;
+}
+
+article p {
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+input {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	width: 10%;
+	height: 1rem;
+}
+
+footer {
+	margin: auto;
+	margin-top: 4rem;
+	width: 60%;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+button {
+	width: 6.5rem;
+	height: 2.5rem;
+	background-color: goldenrod;
+	font-family: Roboto, Arial, sans-serif;
+	font-weight: 500;
+	font-size: 0.8rem;
+	margin-bottom: 3rem;
+}
+
+footer h3 {
+	font-weight: 500;
+	font-size: 1.6rem;
+	margin-bottom: 2rem;
+}
+
+
+
+/* reveal answers on hover */
+
+footer p:hover + .hide{
+	color: white;
+}
+
+.hide {
+	color: black;
+}
+
+
+
+
+
+
+
+
+
